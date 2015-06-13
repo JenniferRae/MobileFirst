@@ -1,1 +1,63 @@
 
+/**********HEADER**********/
+
+#top {  
+	background-color: white;
+	font-size: 100%;
+	left: 0px;
+	margin: 0px auto;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+
+}
+
+#title {
+
+}
+
+header img {
+	float: left;
+	height: 100svg;
+	width: 100svg;
+}
+
+
+
+/**********BODY************/
+
+body {
+	margin-top: 7rem;
+	margin-bottom: 5rem;
+
+}
+
+
+
+/******NAV ATTRIBUTES********/
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+
+/*******BOTTOM OF PAGE********/
+
+#bottom {  
+ 	background-color: white;
+ 	max-height: 10%;
+ 	position: fixed;
+ 	bottom: 0%;
+ 	width: 100%;
+ }
