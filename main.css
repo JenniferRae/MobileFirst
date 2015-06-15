@@ -6,15 +6,12 @@
 	font-size: 100%;
 	left: 0px;
 	margin: 0px auto;
+	max-height: 10%;
 	padding: 10px;
 	position: fixed;
 	text-align: center;
 	top: 0px;
 	width: 100%;
-
-}
-
-#title {
 
 }
 
@@ -26,12 +23,26 @@ header img {
 
 
 
+/*****FLOATS*****/
+
+.links {
+	float: left;
+	/*margin-left: -11rem;*/
+	padding-right: 5rem;
+}
+
+.articles {
+	overflow: auto;
+	width: auto;
+}
+
+
+
 /**********BODY************/
 
 body {
-	margin-top: 7rem;
 	margin-bottom: 5rem;
-
+	margin-top: 7rem;
 }
 
 
