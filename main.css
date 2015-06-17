@@ -27,14 +27,13 @@ header img {
 
 .menu {
 	float: left;
-	margin-left: -900px;
+	/*margin-left: -900px;*/
 	padding-right: 5rem;
 }
 
 .showMenu {
 	float: left;
 	margin-left: 0;
-
 	padding-right: 5rem;
 }
 
@@ -42,7 +41,6 @@ header img {
 	overflow: auto;
 	width: auto;
 }
-
 
 
 /**********BODY************/
@@ -68,6 +66,9 @@ li {
 	list-style-type: none;
 }
 
+li a {
+	color: white;
+}
 
 
 /*******BOTTOM OF PAGE********/
