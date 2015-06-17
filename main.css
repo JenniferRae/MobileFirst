@@ -27,7 +27,6 @@ header img {
 /*****FLOATS*****/
 
 
-
 .hidden {
 	position: fixed;
 	max-width: 200px;
@@ -37,6 +36,7 @@ header img {
 }
 
 .showMenu {
+
 	position: fixed;
 	left: 0;
 	top: 150px;
@@ -109,4 +109,3 @@ li {
  }
 
 
- Hello
