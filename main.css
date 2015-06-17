@@ -27,6 +27,7 @@ header img {
 
 .menu {
 	float: left;
+<<<<<<< HEAD
 	margin-left: -900px;
 	padding-right: 5rem;
 }
@@ -34,6 +35,9 @@ header img {
 .showMenu {
 	float: left;
 	margin-left: 0;
+=======
+	margin-left: -11rem;
+>>>>>>> c57585d348132058c8ed9e1f5bbec8fd0805ef7b
 	padding-right: 5rem;
 }
 
@@ -78,3 +82,6 @@ li {
  	bottom: 0%;
  	width: 100%;
  }
+
+
+ Hello
