@@ -6,12 +6,13 @@
 	font-size: 100%;
 	left: 0px;
 	margin: 0px auto;
-	max-height: 10%;
+	max-height: 150px;
 	padding: 10px;
 	position: fixed;
 	text-align: center;
 	top: 0px;
 	width: 100%;
+	z-index: 1000;
 
 }
 
@@ -25,29 +26,56 @@ header img {
 
 /*****FLOATS*****/
 
-.menu {
-	float: left;
-	/*margin-left: -900px;*/
+
+.hidden {
+	position: fixed;
+	max-width: 200px;
+	left: -900px;
+	top: 150px;
 	padding-right: 5rem;
 }
 
 .showMenu {
-	float: left;
-	margin-left: 0;
+	position: fixed;
+	left: 0;
+	top: 150px;
 	padding-right: 5rem;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 500;
+	height: 100%;
+
 }
+
 
 .articles {
-	overflow: auto;
-	width: auto;
+	text-align: center;
+	padding:0 20px;
+	position: absolute;
+	top:150px;
+	
 }
 
+.articlesShift {
+	position: fixed;
+	left: 50px;
+}
+
+
+nav li {
+	font-size: 1.2em;
+	margin:10px 0;
+
+}
+
+li a {
+	color: white;
+}
 
 /**********BODY************/
 
 body {
 	margin-bottom: 5rem;
-	margin-top: 7rem;
+	margin-top: 9rem;
 }
 
 
@@ -56,11 +84,14 @@ body {
 
 a:link {
 	text-decoration: none;
+	
 }
 
 a:hover {
 	color: green;
 }
+
+
 
 li {
 	list-style-type: none;
