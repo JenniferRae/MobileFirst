@@ -27,7 +27,7 @@ header img {
 
 .links {
 	float: left;
-	/*margin-left: -11rem;*/
+	margin-left: -11rem;
 	padding-right: 5rem;
 }
 
@@ -72,3 +72,6 @@ li {
  	bottom: 0%;
  	width: 100%;
  }
+
+
+ Hello
