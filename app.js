@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
 // Show menu
 
-$('#li').click (function() {
+$('#list').click (function() {
    // alert("click!!!");
    $( '#menu' ).removeClass('hidden');
    $( '#menu' ).addClass('showMenu');
