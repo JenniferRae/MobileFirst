@@ -17,17 +17,24 @@
 
 header img {
 	float: left;
-	height: 100svg;
-	width: 100svg;
+	height: 100px;
+	width: 100px;
 }
 
 
 
 /*****FLOATS*****/
 
-.links {
+.menu {
 	float: left;
-	margin-left: -11rem;
+	margin-left: -900px;
+	padding-right: 5rem;
+}
+
+.showMenu {
+	float: left;
+	margin-left: 0;
+
 	padding-right: 5rem;
 }
 
