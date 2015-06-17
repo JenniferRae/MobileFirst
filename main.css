@@ -1,0 +1,74 @@
+
+/**********HEADER**********/
+
+#top {  
+	background-color: white;
+	font-size: 100%;
+	left: 0px;
+	margin: 0px auto;
+	max-height: 10%;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+
+}
+
+header img {
+	float: left;
+	height: 100svg;
+	width: 100svg;
+}
+
+
+
+/*****FLOATS*****/
+
+.links {
+	float: left;
+	/*margin-left: -11rem;*/
+	padding-right: 5rem;
+}
+
+.articles {
+	overflow: auto;
+	width: auto;
+}
+
+
+
+/**********BODY************/
+
+body {
+	margin-bottom: 5rem;
+	margin-top: 7rem;
+}
+
+
+
+/******NAV ATTRIBUTES********/
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+
+/*******BOTTOM OF PAGE********/
+
+#bottom {  
+ 	background-color: white;
+ 	max-height: 10%;
+ 	position: fixed;
+ 	bottom: 0%;
+ 	width: 100%;
+ }
