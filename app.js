@@ -22,3 +22,8 @@ $('#menu a').click (function() {
    $( '.articles' ).removeClass('articlesShift');
 });
 
+
+
+
+
+

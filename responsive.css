@@ -1,0 +1,60 @@
+@media (min-width: 660px ){
+
+#top {
+	max-width: 900px;
+}
+
+
+/***REMOVE FOOTER***/
+
+#list {
+	display: none;
+}
+
+footer a {
+	display: none;
+}
+
+
+/*********NAV BAR************/
+
+.hidden {
+	background-image: url(img/space.jpg);
+	bottom: 0;
+	float: left;
+	left: 0;
+	max-width: 20%;
+	position: fixed;
+	text-align: left;
+	top: 100px;
+}
+
+nav li { 
+	font-size: 1.50rem;
+	margin-top: 45%;
+
+}
+
+p:first-letter {
+	font-size: 150%;
+}
+
+/*******ARTICLES*********/
+
+
+.articles {
+	font-size: 1.25rem;
+	line-height: 2rem;
+	margin-left: 225px;
+	max-width: 550px;
+	padding: 10%;
+	text-align: left;
+	top: 100px;
+	word-spacing: .50rem;
+
+}
+
+
+
+}
+
